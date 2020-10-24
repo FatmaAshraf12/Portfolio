@@ -1,11 +1,21 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar{
+  width:12px;
 }
+
+::-webkit-scrollbar-track{
+  background:#070707;
+}
+
+::-webkit-scrollbar-thumb{
+ background:linear-gradient(rgb(110, 65, 91),rgb(66, 64, 64));
+ border-radius:5px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

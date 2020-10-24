@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+import About from './components/About/about'
+import Navbar from './components/Navbar/navbar'
+import Home from './components/Home/home'
+import Works from './components/Works/works'
+import Contacts from './components/Contacts/contacts'
+import Index from './components/Index/Index'
+import ScrollArea from 'react-scrollbar'
+import {BrowserRouter ,Switch, Route} from 'react-router-dom'
+
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+
+  render() {
+    return ( 
+
+     <>
+        <Navbar/>
+        <Home id="home"/>
+        <About id="about"/>       
+        <Works id="works"/>      
+        <Contacts id="contacts"/> 
+</>
+    );
+  }
 }
 
 export default App;
