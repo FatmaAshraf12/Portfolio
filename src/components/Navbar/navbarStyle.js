@@ -17,6 +17,8 @@ margin:auto;
 	font-size: 18px;
 	font-weight: 200;	
 	list-style: none;
+	display: flex;
+    justify-content: space-between;
 `
 export const Linkk = styled(Link)`
 color:rgb(170,14,105);
@@ -29,15 +31,6 @@ padding-top:5px;
 		cursor:pointer;
 	}
 `
-export const Li = styled.li`
-display:inline-block;
-pointer:cursor;
-padding-right:9%;
-padding-left:9%;
-&:focus{
-	color:red;
-}
-`
-
+export const Li = styled.li``
 
 

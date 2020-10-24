@@ -16,7 +16,7 @@ export const WorksDiv = styled.div`
 export const Testmonial = styled.div`
     width: 100%;
     height:350px;
-    background: url("/images/works/9.jpg");
+    background: url("images/works/9.jpg");
     background-repeat: no-repeat;
 
     background-position: center center;

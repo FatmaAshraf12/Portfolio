@@ -11,24 +11,27 @@ export const HomeSection = styled.section`
 
 export const Text = styled.div`
     text-align:center;
-    width:60%;
+    width:auto;
     height: auto;
-    position: absolute;
-    top:300px;
+    margin:auto;
     color:#fff;
-    left:21%;
+    margin-top:320px;
+    
 `
 
 export const Title3 = styled.h3`
-    width:70%;
+    width:50%;
     margin:auto;
     font-weight: 900;
-    line-height: 22px;
+    line-height: 1.6;
     padding-top:10px;
     padding-bottom: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom:2px solid rgb(170, 14, 105);
     border-top:2px solid rgb(170, 14, 105);
+    @media (max-width: 768px) {
+        width:auto;
+      }
 `
 export const Title5 = styled.h5`
     font-weight: lighter;
